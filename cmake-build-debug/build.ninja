@@ -41,68 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/bertin/CLionProjects/COEN243/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target run_Ass2Question2.cpp
-
-
-#############################################
-# Order-only phony target for run_Ass2Question2.cpp
-
-build cmake_object_order_depends_target_run_Ass2Question2.cpp: phony || CMakeFiles/run_Ass2Question2.cpp.dir
-
-build CMakeFiles/run_Ass2Question2.cpp.dir/Ass2Question2.cpp.o: CXX_COMPILER__run_Ass2Question2.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/Ass2Question2.cpp || cmake_object_order_depends_target_run_Ass2Question2.cpp
-  DEP_FILE = CMakeFiles/run_Ass2Question2.cpp.dir/Ass2Question2.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/run_Ass2Question2.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/run_Ass2Question2.cpp.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target run_Ass2Question2.cpp
-
-
-#############################################
-# Link the executable run_Ass2Question2.cpp
-
-build run_Ass2Question2.cpp: CXX_EXECUTABLE_LINKER__run_Ass2Question2.2ecpp_Debug CMakeFiles/run_Ass2Question2.cpp.dir/Ass2Question2.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/run_Ass2Question2.cpp.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = run_Ass2Question2.cpp
-  TARGET_PDB = run_Ass2Question2.cpp.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target run_HouseMaker.cpp
-
-
-#############################################
-# Order-only phony target for run_HouseMaker.cpp
-
-build cmake_object_order_depends_target_run_HouseMaker.cpp: phony || CMakeFiles/run_HouseMaker.cpp.dir
-
-build CMakeFiles/run_HouseMaker.cpp.dir/HouseMaker.cpp.o: CXX_COMPILER__run_HouseMaker.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/HouseMaker.cpp || cmake_object_order_depends_target_run_HouseMaker.cpp
-  DEP_FILE = CMakeFiles/run_HouseMaker.cpp.dir/HouseMaker.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/run_HouseMaker.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/run_HouseMaker.cpp.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target run_HouseMaker.cpp
-
-
-#############################################
-# Link the executable run_HouseMaker.cpp
-
-build run_HouseMaker.cpp: CXX_EXECUTABLE_LINKER__run_HouseMaker.2ecpp_Debug CMakeFiles/run_HouseMaker.cpp.dir/HouseMaker.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/run_HouseMaker.cpp.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = run_HouseMaker.cpp
-  TARGET_PDB = run_HouseMaker.cpp.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target run_MihigoSano_40157663_Lab2.cpp
 
 
@@ -134,6 +72,68 @@ build run_MihigoSano_40157663_Lab2.cpp: CXX_EXECUTABLE_LINKER__run_MihigoSano_40
   TARGET_PDB = run_MihigoSano_40157663_Lab2.cpp.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target run_MyClass.cpp
+
+
+#############################################
+# Order-only phony target for run_MyClass.cpp
+
+build cmake_object_order_depends_target_run_MyClass.cpp: phony || CMakeFiles/run_MyClass.cpp.dir
+
+build CMakeFiles/run_MyClass.cpp.dir/MyClass.cpp.o: CXX_COMPILER__run_MyClass.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/MyClass.cpp || cmake_object_order_depends_target_run_MyClass.cpp
+  DEP_FILE = CMakeFiles/run_MyClass.cpp.dir/MyClass.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_MyClass.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_MyClass.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_MyClass.cpp
+
+
+#############################################
+# Link the executable run_MyClass.cpp
+
+build run_MyClass.cpp: CXX_EXECUTABLE_LINKER__run_MyClass.2ecpp_Debug CMakeFiles/run_MyClass.cpp.dir/MyClass.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_MyClass.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_MyClass.cpp
+  TARGET_PDB = run_MyClass.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target run_Pointers.cpp
+
+
+#############################################
+# Order-only phony target for run_Pointers.cpp
+
+build cmake_object_order_depends_target_run_Pointers.cpp: phony || CMakeFiles/run_Pointers.cpp.dir
+
+build CMakeFiles/run_Pointers.cpp.dir/Pointers.cpp.o: CXX_COMPILER__run_Pointers.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/Pointers.cpp || cmake_object_order_depends_target_run_Pointers.cpp
+  DEP_FILE = CMakeFiles/run_Pointers.cpp.dir/Pointers.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_Pointers.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_Pointers.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_Pointers.cpp
+
+
+#############################################
+# Link the executable run_Pointers.cpp
+
+build run_Pointers.cpp: CXX_EXECUTABLE_LINKER__run_Pointers.2ecpp_Debug CMakeFiles/run_Pointers.cpp.dir/Pointers.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_Pointers.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_Pointers.cpp
+  TARGET_PDB = run_Pointers.cpp.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target run_PointersDemo.cpp
 
 
@@ -163,6 +163,68 @@ build run_PointersDemo.cpp: CXX_EXECUTABLE_LINKER__run_PointersDemo.2ecpp_Debug 
   PRE_LINK = :
   TARGET_FILE = run_PointersDemo.cpp
   TARGET_PDB = run_PointersDemo.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target run_RecursiveFunctions.cpp
+
+
+#############################################
+# Order-only phony target for run_RecursiveFunctions.cpp
+
+build cmake_object_order_depends_target_run_RecursiveFunctions.cpp: phony || CMakeFiles/run_RecursiveFunctions.cpp.dir
+
+build CMakeFiles/run_RecursiveFunctions.cpp.dir/RecursiveFunctions.cpp.o: CXX_COMPILER__run_RecursiveFunctions.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/RecursiveFunctions.cpp || cmake_object_order_depends_target_run_RecursiveFunctions.cpp
+  DEP_FILE = CMakeFiles/run_RecursiveFunctions.cpp.dir/RecursiveFunctions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_RecursiveFunctions.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_RecursiveFunctions.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_RecursiveFunctions.cpp
+
+
+#############################################
+# Link the executable run_RecursiveFunctions.cpp
+
+build run_RecursiveFunctions.cpp: CXX_EXECUTABLE_LINKER__run_RecursiveFunctions.2ecpp_Debug CMakeFiles/run_RecursiveFunctions.cpp.dir/RecursiveFunctions.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_RecursiveFunctions.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_RecursiveFunctions.cpp
+  TARGET_PDB = run_RecursiveFunctions.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target run_STL_Sort.cpp
+
+
+#############################################
+# Order-only phony target for run_STL_Sort.cpp
+
+build cmake_object_order_depends_target_run_STL_Sort.cpp: phony || CMakeFiles/run_STL_Sort.cpp.dir
+
+build CMakeFiles/run_STL_Sort.cpp.dir/STL_Sort.cpp.o: CXX_COMPILER__run_STL_Sort.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/STL_Sort.cpp || cmake_object_order_depends_target_run_STL_Sort.cpp
+  DEP_FILE = CMakeFiles/run_STL_Sort.cpp.dir/STL_Sort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_STL_Sort.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_STL_Sort.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_STL_Sort.cpp
+
+
+#############################################
+# Link the executable run_STL_Sort.cpp
+
+build run_STL_Sort.cpp: CXX_EXECUTABLE_LINKER__run_STL_Sort.2ecpp_Debug CMakeFiles/run_STL_Sort.cpp.dir/STL_Sort.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_STL_Sort.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_STL_Sort.cpp
+  TARGET_PDB = run_STL_Sort.cpp.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target run_StringsManipulation.cpp
@@ -227,6 +289,37 @@ build run_StructDemo.cpp: CXX_EXECUTABLE_LINKER__run_StructDemo.2ecpp_Debug CMak
   TARGET_PDB = run_StructDemo.cpp.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target run_Vectors.cpp
+
+
+#############################################
+# Order-only phony target for run_Vectors.cpp
+
+build cmake_object_order_depends_target_run_Vectors.cpp: phony || CMakeFiles/run_Vectors.cpp.dir
+
+build CMakeFiles/run_Vectors.cpp.dir/Vectors.cpp.o: CXX_COMPILER__run_Vectors.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/Vectors.cpp || cmake_object_order_depends_target_run_Vectors.cpp
+  DEP_FILE = CMakeFiles/run_Vectors.cpp.dir/Vectors.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_Vectors.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_Vectors.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_Vectors.cpp
+
+
+#############################################
+# Link the executable run_Vectors.cpp
+
+build run_Vectors.cpp: CXX_EXECUTABLE_LINKER__run_Vectors.2ecpp_Debug CMakeFiles/run_Vectors.cpp.dir/Vectors.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_Vectors.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_Vectors.cpp
+  TARGET_PDB = run_Vectors.cpp.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target run_main.cpp
 
 
@@ -256,6 +349,37 @@ build run_main.cpp: CXX_EXECUTABLE_LINKER__run_main.2ecpp_Debug CMakeFiles/run_m
   PRE_LINK = :
   TARGET_FILE = run_main.cpp
   TARGET_PDB = run_main.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target run_mainmain.cpp
+
+
+#############################################
+# Order-only phony target for run_mainmain.cpp
+
+build cmake_object_order_depends_target_run_mainmain.cpp: phony || CMakeFiles/run_mainmain.cpp.dir
+
+build CMakeFiles/run_mainmain.cpp.dir/mainmain.cpp.o: CXX_COMPILER__run_mainmain.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/mainmain.cpp || cmake_object_order_depends_target_run_mainmain.cpp
+  DEP_FILE = CMakeFiles/run_mainmain.cpp.dir/mainmain.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_mainmain.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_mainmain.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_mainmain.cpp
+
+
+#############################################
+# Link the executable run_mainmain.cpp
+
+build run_mainmain.cpp: CXX_EXECUTABLE_LINKER__run_mainmain.2ecpp_Debug CMakeFiles/run_mainmain.cpp.dir/mainmain.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_mainmain.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_mainmain.cpp
+  TARGET_PDB = run_mainmain.cpp.dbg
 
 
 #############################################
@@ -291,7 +415,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug
 
-build all: phony run_Ass2Question2.cpp run_HouseMaker.cpp run_MihigoSano_40157663_Lab2.cpp run_PointersDemo.cpp run_StringsManipulation.cpp run_StructDemo.cpp run_main.cpp
+build all: phony run_MihigoSano_40157663_Lab2.cpp run_MyClass.cpp run_Pointers.cpp run_PointersDemo.cpp run_RecursiveFunctions.cpp run_STL_Sort.cpp run_StringsManipulation.cpp run_StructDemo.cpp run_Vectors.cpp run_main.cpp run_mainmain.cpp
 
 # =============================================================================
 # Built-in targets

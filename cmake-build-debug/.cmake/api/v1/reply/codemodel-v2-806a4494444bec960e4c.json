@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "COEN243",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "run_Arrays.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_Arrays.cpp-Debug-f3fe4f58b8a57deeff5a.json",
+					"name" : "run_Arrays.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_Ass3_1.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_Ass3_1.cpp-Debug-7b19528d63af68a94854.json",
+					"name" : "run_Ass3_1.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_DynamicMemoryMgmt.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_DynamicMemoryMgmt.cpp-Debug-c6ae65140a372913f992.json",
+					"name" : "run_DynamicMemoryMgmt.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_MihigoSano_40157663_Lab2.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_MihigoSano_40157663_Lab2.cpp-Debug-853dde7c131f00aef407.json",
+					"name" : "run_MihigoSano_40157663_Lab2.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_MihigoSano_40157663_Lab3.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_MihigoSano_40157663_Lab3.cpp-Debug-0e20bb48001025dbd1bf.json",
+					"name" : "run_MihigoSano_40157663_Lab3.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_MyClass.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_MyClass.cpp-Debug-54d41d24c68db5c20866.json",
+					"name" : "run_MyClass.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_Pointers.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_Pointers.cpp-Debug-05d98421e5866fdfc9ad.json",
+					"name" : "run_Pointers.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_PointersDemo.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_PointersDemo.cpp-Debug-655dfe19e4a33dc0b511.json",
+					"name" : "run_PointersDemo.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_RecursiveFunctions.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_RecursiveFunctions.cpp-Debug-1a874601a424b9a54675.json",
+					"name" : "run_RecursiveFunctions.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_STL_Sort.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_STL_Sort.cpp-Debug-76df9e6a0b4a38dbc715.json",
+					"name" : "run_STL_Sort.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_StringsManipulation.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_StringsManipulation.cpp-Debug-2ccf0456361669e1a948.json",
+					"name" : "run_StringsManipulation.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_StructDemo.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_StructDemo.cpp-Debug-828dbe8ee49ba959feb7.json",
+					"name" : "run_StructDemo.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_Vectors.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_Vectors.cpp-Debug-f7e4c0f3c0d0e8ac9571.json",
+					"name" : "run_Vectors.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_main.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_main.cpp-Debug-4fcb008bf3da2de66728.json",
+					"name" : "run_main.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_mainmain.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_mainmain.cpp-Debug-d08c874c8df6f9b0a5d6.json",
+					"name" : "run_mainmain.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/bertin/CLionProjects/COEN243/cmake-build-debug",
+		"source" : "/Users/bertin/CLionProjects/COEN243"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
