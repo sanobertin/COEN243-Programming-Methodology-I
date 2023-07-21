@@ -1,5 +1,10 @@
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_Arrays.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_Ass3_1.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_DynamicMemoryMgmt.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_MihigoSano_40157663_Lab2.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_MyClass.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_Palindrome.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_Pointers.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_PointersDemo.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_RecursiveFunctions.cpp.dir

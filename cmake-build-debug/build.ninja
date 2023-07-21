@@ -41,6 +41,99 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/bertin/CLionProjects/COEN243/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target run_Arrays.cpp
+
+
+#############################################
+# Order-only phony target for run_Arrays.cpp
+
+build cmake_object_order_depends_target_run_Arrays.cpp: phony || CMakeFiles/run_Arrays.cpp.dir
+
+build CMakeFiles/run_Arrays.cpp.dir/Arrays.cpp.o: CXX_COMPILER__run_Arrays.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/Arrays.cpp || cmake_object_order_depends_target_run_Arrays.cpp
+  DEP_FILE = CMakeFiles/run_Arrays.cpp.dir/Arrays.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_Arrays.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_Arrays.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_Arrays.cpp
+
+
+#############################################
+# Link the executable run_Arrays.cpp
+
+build run_Arrays.cpp: CXX_EXECUTABLE_LINKER__run_Arrays.2ecpp_Debug CMakeFiles/run_Arrays.cpp.dir/Arrays.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_Arrays.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_Arrays.cpp
+  TARGET_PDB = run_Arrays.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target run_Ass3_1.cpp
+
+
+#############################################
+# Order-only phony target for run_Ass3_1.cpp
+
+build cmake_object_order_depends_target_run_Ass3_1.cpp: phony || CMakeFiles/run_Ass3_1.cpp.dir
+
+build CMakeFiles/run_Ass3_1.cpp.dir/Ass3_1.cpp.o: CXX_COMPILER__run_Ass3_1.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/Ass3_1.cpp || cmake_object_order_depends_target_run_Ass3_1.cpp
+  DEP_FILE = CMakeFiles/run_Ass3_1.cpp.dir/Ass3_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_Ass3_1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_Ass3_1.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_Ass3_1.cpp
+
+
+#############################################
+# Link the executable run_Ass3_1.cpp
+
+build run_Ass3_1.cpp: CXX_EXECUTABLE_LINKER__run_Ass3_1.2ecpp_Debug CMakeFiles/run_Ass3_1.cpp.dir/Ass3_1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_Ass3_1.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_Ass3_1.cpp
+  TARGET_PDB = run_Ass3_1.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target run_DynamicMemoryMgmt.cpp
+
+
+#############################################
+# Order-only phony target for run_DynamicMemoryMgmt.cpp
+
+build cmake_object_order_depends_target_run_DynamicMemoryMgmt.cpp: phony || CMakeFiles/run_DynamicMemoryMgmt.cpp.dir
+
+build CMakeFiles/run_DynamicMemoryMgmt.cpp.dir/DynamicMemoryMgmt.cpp.o: CXX_COMPILER__run_DynamicMemoryMgmt.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/DynamicMemoryMgmt.cpp || cmake_object_order_depends_target_run_DynamicMemoryMgmt.cpp
+  DEP_FILE = CMakeFiles/run_DynamicMemoryMgmt.cpp.dir/DynamicMemoryMgmt.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_DynamicMemoryMgmt.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_DynamicMemoryMgmt.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_DynamicMemoryMgmt.cpp
+
+
+#############################################
+# Link the executable run_DynamicMemoryMgmt.cpp
+
+build run_DynamicMemoryMgmt.cpp: CXX_EXECUTABLE_LINKER__run_DynamicMemoryMgmt.2ecpp_Debug CMakeFiles/run_DynamicMemoryMgmt.cpp.dir/DynamicMemoryMgmt.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_DynamicMemoryMgmt.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_DynamicMemoryMgmt.cpp
+  TARGET_PDB = run_DynamicMemoryMgmt.cpp.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target run_MihigoSano_40157663_Lab2.cpp
 
 
@@ -72,6 +165,37 @@ build run_MihigoSano_40157663_Lab2.cpp: CXX_EXECUTABLE_LINKER__run_MihigoSano_40
   TARGET_PDB = run_MihigoSano_40157663_Lab2.cpp.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target run_MihigoSano_40157663_Lab3.cpp
+
+
+#############################################
+# Order-only phony target for run_MihigoSano_40157663_Lab3.cpp
+
+build cmake_object_order_depends_target_run_MihigoSano_40157663_Lab3.cpp: phony || CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir
+
+build CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir/MihigoSano_40157663_Lab3.cpp.o: CXX_COMPILER__run_MihigoSano_40157663_Lab3.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/MihigoSano_40157663_Lab3.cpp || cmake_object_order_depends_target_run_MihigoSano_40157663_Lab3.cpp
+  DEP_FILE = CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir/MihigoSano_40157663_Lab3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_MihigoSano_40157663_Lab3.cpp
+
+
+#############################################
+# Link the executable run_MihigoSano_40157663_Lab3.cpp
+
+build run_MihigoSano_40157663_Lab3.cpp: CXX_EXECUTABLE_LINKER__run_MihigoSano_40157663_Lab3.2ecpp_Debug CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir/MihigoSano_40157663_Lab3.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_MihigoSano_40157663_Lab3.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_MihigoSano_40157663_Lab3.cpp
+  TARGET_PDB = run_MihigoSano_40157663_Lab3.cpp.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target run_MyClass.cpp
 
 
@@ -101,6 +225,37 @@ build run_MyClass.cpp: CXX_EXECUTABLE_LINKER__run_MyClass.2ecpp_Debug CMakeFiles
   PRE_LINK = :
   TARGET_FILE = run_MyClass.cpp
   TARGET_PDB = run_MyClass.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target run_Palindrome.cpp
+
+
+#############################################
+# Order-only phony target for run_Palindrome.cpp
+
+build cmake_object_order_depends_target_run_Palindrome.cpp: phony || CMakeFiles/run_Palindrome.cpp.dir
+
+build CMakeFiles/run_Palindrome.cpp.dir/Palindrome.cpp.o: CXX_COMPILER__run_Palindrome.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/Palindrome.cpp || cmake_object_order_depends_target_run_Palindrome.cpp
+  DEP_FILE = CMakeFiles/run_Palindrome.cpp.dir/Palindrome.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_Palindrome.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_Palindrome.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_Palindrome.cpp
+
+
+#############################################
+# Link the executable run_Palindrome.cpp
+
+build run_Palindrome.cpp: CXX_EXECUTABLE_LINKER__run_Palindrome.2ecpp_Debug CMakeFiles/run_Palindrome.cpp.dir/Palindrome.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_Palindrome.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_Palindrome.cpp
+  TARGET_PDB = run_Palindrome.cpp.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target run_Pointers.cpp
@@ -386,7 +541,7 @@ build run_mainmain.cpp: CXX_EXECUTABLE_LINKER__run_mainmain.2ecpp_Debug CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug && "/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug && "/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -397,7 +552,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug && "/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
+  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug && "/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -415,7 +570,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug
 
-build all: phony run_MihigoSano_40157663_Lab2.cpp run_MyClass.cpp run_Pointers.cpp run_PointersDemo.cpp run_RecursiveFunctions.cpp run_STL_Sort.cpp run_StringsManipulation.cpp run_StructDemo.cpp run_Vectors.cpp run_main.cpp run_mainmain.cpp
+build all: phony run_Arrays.cpp run_Ass3_1.cpp run_DynamicMemoryMgmt.cpp run_MihigoSano_40157663_Lab2.cpp run_MihigoSano_40157663_Lab3.cpp run_MyClass.cpp run_Palindrome.cpp run_Pointers.cpp run_PointersDemo.cpp run_RecursiveFunctions.cpp run_STL_Sort.cpp run_StringsManipulation.cpp run_StructDemo.cpp run_Vectors.cpp run_main.cpp run_mainmain.cpp
 
 # =============================================================================
 # Built-in targets
@@ -424,14 +579,14 @@ build all: phony run_MihigoSano_40157663_Lab2.cpp run_MyClass.cpp run_Pointers.c
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/GNU.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/GNU.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/GNU.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/GNU.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin.cmake /Users/bertin/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################

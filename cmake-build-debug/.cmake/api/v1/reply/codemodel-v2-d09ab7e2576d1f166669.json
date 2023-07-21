@@ -29,7 +29,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -58,7 +59,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -104,6 +106,13 @@
 					"id" : "run_MyClass.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-run_MyClass.cpp-Debug-54d41d24c68db5c20866.json",
 					"name" : "run_MyClass.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_Palindrome.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_Palindrome.cpp-Debug-da3e9c5958ed9c56c2af.json",
+					"name" : "run_Palindrome.cpp",
 					"projectIndex" : 0
 				},
 				{
