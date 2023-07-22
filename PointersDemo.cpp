@@ -10,10 +10,8 @@
 using namespace std;
 
 int main(){
-    int* a;
-    int b = 10;
-    a = &b;
-    cout << (*a == b) <<endl;
+    const char* a;
+    cout << *a << endl <<  &a << endl;
 
     return 0;
 }

@@ -351,6 +351,37 @@ build run_RecursiveFunctions.cpp: CXX_EXECUTABLE_LINKER__run_RecursiveFunctions.
   TARGET_PDB = run_RecursiveFunctions.cpp.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target run_RobotsMovements.cpp
+
+
+#############################################
+# Order-only phony target for run_RobotsMovements.cpp
+
+build cmake_object_order_depends_target_run_RobotsMovements.cpp: phony || CMakeFiles/run_RobotsMovements.cpp.dir
+
+build CMakeFiles/run_RobotsMovements.cpp.dir/RobotsMovements.cpp.o: CXX_COMPILER__run_RobotsMovements.2ecpp_Debug /Users/bertin/CLionProjects/COEN243/RobotsMovements.cpp || cmake_object_order_depends_target_run_RobotsMovements.cpp
+  DEP_FILE = CMakeFiles/run_RobotsMovements.cpp.dir/RobotsMovements.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/run_RobotsMovements.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/run_RobotsMovements.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target run_RobotsMovements.cpp
+
+
+#############################################
+# Link the executable run_RobotsMovements.cpp
+
+build run_RobotsMovements.cpp: CXX_EXECUTABLE_LINKER__run_RobotsMovements.2ecpp_Debug CMakeFiles/run_RobotsMovements.cpp.dir/RobotsMovements.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/run_RobotsMovements.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = run_RobotsMovements.cpp
+  TARGET_PDB = run_RobotsMovements.cpp.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target run_STL_Sort.cpp
 
 
@@ -570,7 +601,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug
 
-build all: phony run_Arrays.cpp run_Ass3_1.cpp run_DynamicMemoryMgmt.cpp run_MihigoSano_40157663_Lab2.cpp run_MihigoSano_40157663_Lab3.cpp run_MyClass.cpp run_Palindrome.cpp run_Pointers.cpp run_PointersDemo.cpp run_RecursiveFunctions.cpp run_STL_Sort.cpp run_StringsManipulation.cpp run_StructDemo.cpp run_Vectors.cpp run_main.cpp run_mainmain.cpp
+build all: phony run_Arrays.cpp run_Ass3_1.cpp run_DynamicMemoryMgmt.cpp run_MihigoSano_40157663_Lab2.cpp run_MihigoSano_40157663_Lab3.cpp run_MyClass.cpp run_Palindrome.cpp run_Pointers.cpp run_PointersDemo.cpp run_RecursiveFunctions.cpp run_RobotsMovements.cpp run_STL_Sort.cpp run_StringsManipulation.cpp run_StructDemo.cpp run_Vectors.cpp run_main.cpp run_mainmain.cpp
 
 # =============================================================================
 # Built-in targets

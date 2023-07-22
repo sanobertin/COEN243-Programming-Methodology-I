@@ -8,6 +8,7 @@
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_Pointers.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_PointersDemo.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_RecursiveFunctions.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_RobotsMovements.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_STL_Sort.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_StringsManipulation.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/run_StructDemo.cpp.dir

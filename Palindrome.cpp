@@ -10,10 +10,11 @@ bool testPalindrome(string s){
     int s_size = (int) s.size();
     s_size--;
     string ss;
+    char arr_ss[s_size];
     for(int i=s_size;i>=0;i--){ // a loop to reverse param string s
-        ss[i] = s[s_size];
+        arr_ss[i] = s[s_size-i];
     }
-    ss = (string) ss;
+    ss = (string) arr_ss;
     cout << ss << endl;
     if(ss==s)
         return true;
