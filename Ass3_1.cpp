@@ -21,37 +21,135 @@
  */
 
 #include <iostream>
+#include <random>
 using namespace std;
-
+/*
+ * Kruti
 float highest_grades(float arr[]);
 float lowest_grades(float arr[]);
 float avg_grade(float *arr);
+ */
 float median_grade(float arr[]);
-float A_grades(float arr[]);
-float B_grades(float arr[]);
-float C_grades(float arr[]);
-float D_grades(float arr[]);
-float F_grades(float arr[]);
+int A_grades(int N, float arr[N]);
+int B_grades(int N, float arr[N]);
+int C_grades(int N, float arr[N]);
+int D_grades(int N, float arr[N]);
+int F_grades(int N, float arr[N]);
 
 int main(){
     int N;
     cout << "How many students are enrolled in your class ?" << endl;
     cin >> N;
     float grades[N];
-    // section below will randomly assign numbers to grades array to for test purposes
-    float test_grades[5] = {23.3, 43.4, 98.55, 67.9, 50.01};
-    float* grades_ptr=test_grades;
-    cout << avg_grade(grades_ptr) << endl;
+    // section below is for testing purposes and will be removed
+    int range = 100 - 0 + 1;
+    for(int i =0;i<N;i++)
+        grades[i] = rand() % range + 0;
 
+    cout << A_grades(N, grades);
+    cout << endl;
+
+    cout << B_grades(N, grades);
+    cout << endl;
+
+    cout<< C_grades(N, grades);
+    cout << endl;
+
+    cout << D_grades(N, grades);
+    cout << endl;
+
+    cout << F_grades(N, grades);
+    cout << endl;
+
+    //end testing
 
     return 0; // Exit with success
 }
 
-float avg_grade(float& arr){
-    float sum=0.0;
-    int arr_length = sizeof(arr) / sizeof(float);
-    for(int i=0;i<arr_length;i++){
-        sum = (arr + i);
+// functions detials are found below
+
+int A_grades(int N, float arr[N]){
+    int counter=0; // a variable to count number of grades in A range
+    if(N){
+        for(int i=0;i<N;i++){
+            if(arr[i]>=90)
+                counter++;
+            else
+                continue;
+        }
     }
-    return (sum);
+    else{
+         cout << "Issue with number of students\n";
+         exit(EXIT_FAILURE);
+    }
+    return counter;
+}
+
+
+int B_grades(int N, float arr[N]){
+    int counter=0; // a variable to count number of grades in A range
+    if(N){
+        for(int i=0;i<N;i++){
+            if(arr[i]>=80 && arr[i]<90)
+                counter++;
+            else
+                continue;
+        }
+    }
+    else{
+        cout << "Issue with number of students\n";
+        exit(EXIT_FAILURE);
+    }
+    return counter;
+}
+
+int C_grades(int N, float arr[N]){
+    int counter=0; // a variable to count number of grades in A range
+    if(N){
+        for(int i=0;i<N;i++){
+            if(arr[i]>=65 && arr[i]<80)
+                counter++;
+            else
+                continue;
+        }
+    }
+    else{
+        cout << "Issue with number of students\n";
+        exit(EXIT_FAILURE);
+    }
+    return counter;
+}
+
+int D_grades(int N, float arr[N]){
+    int counter=0; // a variable to count number of grades in A range
+    if(N){
+        for(int i=0;i<N;i++){
+            if(arr[i]>=50 && arr[i]<65)
+                counter++;
+            else
+                continue;
+        }
+    }
+    else{
+        cout << "Issue with number of students\n";
+        exit(EXIT_FAILURE);
+    }
+    return counter;
+}
+
+int F_grades(int N, float arr[N]){
+    int counter=0; // a variable to count number of grades in A range
+    if(N){
+        for(int i=0;i<N;i++){
+            if(arr[i]<50)
+                counter++;
+            else
+                continue;
+        }
+    }
+    else{
+        cout << "Issue with number of students\n";
+        exit(EXIT_FAILURE);
+    }
+    return counter;
 }
