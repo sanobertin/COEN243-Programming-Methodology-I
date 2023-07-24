@@ -2,8 +2,7 @@
 // Created by Bertin Mihigo Sano on 2023-07-19.
 //
 // Concordia ID 40157663
-// Created by Bertin Mihigo Sano on 2023-07-19.
-// Lab3 exercise
+// Created by Bertin Mihigo Sano and Kruti
 /*
  * Write a C++ program that uses an array to store the grades of N students (N is entered by the user),
  * and outputs the information below.
@@ -24,7 +23,7 @@
 #include <random>
 using namespace std;
 /*
- * Kruti
+ * Kruti's work
 float highest_grades(float arr[]);
 float lowest_grades(float arr[]);
 float avg_grade(float *arr);
@@ -36,15 +35,17 @@ int C_grades(int N, float arr[N]);
 int D_grades(int N, float arr[N]);
 int F_grades(int N, float arr[N]);
 
-int main(){
+int main() {
     int N;
     cout << "How many students are enrolled in your class ?" << endl;
     cin >> N;
     float grades[N];
     // section below is for testing purposes and will be removed
     int range = 100 - 0 + 1;
-    for(int i =0;i<N;i++)
+    for (int i = 0; i < N; i++) {
         grades[i] = rand() % range + 0;
+        cout << "Student " << (i + 1) << "'s grade is " << grades[i] << endl;
+    }
 
     cout << A_grades(N, grades);
     cout << endl;
