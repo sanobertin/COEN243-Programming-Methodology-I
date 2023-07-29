@@ -2,19 +2,26 @@ cmake_minimum_required(VERSION 3.25)
 project(COEN243)
 
 set(CMAKE_CXX_STANDARD 20)
+if (APPLE)
+    SET(CMAKE_OSX_ARCHITECTURES arm64)
+endif ()
 
-#Get every cpp file in the current directory
-file(GLOB CPPFILES "*.cpp")
-#Get every cpp file in sub directories
-#add_subdirectory(Assignment1)
-#for each cpp file found...
-foreach(file ${CPPFILES})
+#GLOB_RECURSE
+file(GLOB ALL
+        "*.cpp")
+
+foreach(file ${ALL})
     #extract just the file name and extension
     get_filename_component(fname ${file} NAME)
     message(STATUS "Adding target for ${fname}")
     #add target for just that file
-    #add_executable(run_${fname} ${fname} "SimpleCalc.cpp" "Income_Tax_Calculator.cpp")
-    add_executable(run_${fname} ${fname})
+    add_executable(${fname} ${fname})
 endforeach()
 
-#add_executable(Assignment2/LowerUpperBound.cpp)
+
+#target_link_directories(${PROJECT_SOURCE_DIR})
+#target_link_libraries(${PROJECT_SOURCE_DIR})
+#add_executable(MY Assignment4/Employee.cpp Assignment4/Employee.h Assignment4/testemployee.cpp)
+#include_directories(${PROJECT_SOURCE_DIR}/Assignment4)
+
+add_subdirectory(${PROJECT_SOURCE_DIR}/Assignment4) # This line ensure all files in Assignment4 folder are brought in!

@@ -1,6 +1,3 @@
-//
-// Created by Bertin Mihigo Sano and Krudi
-//
 #include <string>
 #include <iostream>
 

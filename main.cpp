@@ -1,38 +1,37 @@
 
 #include <iostream>
+#include <cmath>
+
 
 using namespace std;
-/*
-static float bmi(float height, float mass){
-    float re;
-    re = height / (mass*mass) ;
-    return re;
+
+// a function to multiple every member in the array by x1000
+void multiplier(float& arr[]){
+    int size; // size of the passed array
+    size = sizeof(arr)/sizeof(float );
+    size--;
+    for(int i=0; i<=size;i++){
+        //*(arr + i ) = *(arr+i)*1000;
+        arr[i]= arr[i]*100;
+    }
 }
-struct Person{
-    string name;
-    unsigned int DOB;
-    float height;
-    float mass;
-    float mass_index = re(height, mass);
-};
-int main() {
-    // main body of c++ program
-    //string t;
-    //cout << endl << endl;
-    //getline(cin, t, 'o');
-    //cout << t;
-    //vector <int> a = 5;
-    // Below is a demo of a structure C++
-    emp1 = 
-    cout << "enter your name, year of birth, heigh, and mass" << endl;
-    cin >>
+
+int main(){
+    int N;
+    cout << "How many employees you need? :";
+    cin >> N;
+    float grades[N];
+    int range = 100 - 0 + 1;
+    for (int i = 0; i < N; i++) {
+        grades[i] = (float) (rand() % range + 0);
+        cout << grades[i] << endl;
+    }
+    cout << endl << endl << endl;
+    multiplier(grades);
+    for(int i=0;i<N;i++){
+        cout << grades[i] << endl;
+    }
+    cout <<"End program here" << endl;
+
     return 0;
-}
-
-*/
-
-
-int main()
-{
-
 }

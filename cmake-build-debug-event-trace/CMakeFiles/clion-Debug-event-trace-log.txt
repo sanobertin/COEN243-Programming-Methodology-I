@@ -1,0 +1,21 @@
+"/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/ninja/mac/ninja" --profiling-format=google-trace --profiling-output=CMakeFiles/clion-event-trace.json -G Ninja -S /Users/bertin/CLionProjects/COEN243 -B /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace
+-- Adding target for 3.1_backup.cpp
+-- Adding target for Arrays.cpp
+-- Adding target for Ass3_1.cpp
+-- Adding target for Circles.cpp
+-- Adding target for DynamicMemoryMgmt.cpp
+-- Adding target for MyClass.cpp
+-- Adding target for Palindrome.cpp
+-- Adding target for Pointers.cpp
+-- Adding target for PointersDemo.cpp
+-- Adding target for RecursiveFunctions.cpp
+-- Adding target for STL_Sort.cpp
+-- Adding target for StringsManipulation.cpp
+-- Adding target for StructDemo.cpp
+-- Adding target for Vectors.cpp
+-- Adding target for cpp_templates.cpp
+-- Adding target for main.cpp
+-- Adding target for mainmain.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace
