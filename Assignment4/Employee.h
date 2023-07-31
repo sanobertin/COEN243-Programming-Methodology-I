@@ -45,8 +45,8 @@ public:
     void changeAddress(std::string); // Modify the address of the employee
     telephone getTelephone(void); //Return the telephone number
     void changeTelephone(telephone);//Modify the telephone number
-    //bool isSameLname(std::string, std::string); //Return true if two given employees have the same last name. Return false otherwise
-    //bool isSameSalaryORSameYear();//Return true if two employees have the same salary or they were hired on the same year. Return false otherwise
+    bool isSameLname(Employee otherEmployee); //Return true if two given employees have the same last name. Return false otherwise
+    bool isSameSalaryORSameYear(Employee otherEmployee);//Return true if two employees have the same salary or they were hired on the same year. Return false otherwise
 
 
 

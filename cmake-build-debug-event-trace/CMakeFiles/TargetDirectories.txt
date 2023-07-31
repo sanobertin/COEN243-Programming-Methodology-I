@@ -19,5 +19,6 @@
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/rebuild_cache.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/Assignment4_2.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/Assignment4_3.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/Assignment4_1.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/edit_cache.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/rebuild_cache.dir

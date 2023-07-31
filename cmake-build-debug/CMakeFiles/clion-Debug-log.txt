@@ -1,4 +1,4 @@
-"/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/bertin/CLionProjects/COEN243 -B /Users/bertin/CLionProjects/COEN243/cmake-build-debug
+/opt/homebrew/bin/cmake -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/bertin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/bertin/CLionProjects/COEN243 -B /Users/bertin/CLionProjects/COEN243/cmake-build-debug
 -- Adding target for 3.1_backup.cpp
 -- Adding target for Arrays.cpp
 -- Adding target for Ass3_1.cpp
@@ -16,6 +16,6 @@
 -- Adding target for cpp_templates.cpp
 -- Adding target for main.cpp
 -- Adding target for mainmain.cpp
--- Configuring done
--- Generating done
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
 -- Build files have been written to: /Users/bertin/CLionProjects/COEN243/cmake-build-debug
