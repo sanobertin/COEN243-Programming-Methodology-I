@@ -37,16 +37,15 @@ void Department::addNewEmployee(Employee newEmployee){
 }
 
 void Department::removeEmployee(Employee employeeToBeRemoved){
-        /*
+        //Employee temp;
         for(int i=0;i<employees.size();i++){
             if(employees[i].getEmployeeID() == employeeToBeRemoved.getEmployeeID()){
-                std::iter_swap(employees.begin()+i, employees.end());
+                employees.erase(employees.begin()+i); // this will delete specified employee and reindex the vector
                 break;
             }
             else
                 continue;
         }
-*/
         return;
 }
 

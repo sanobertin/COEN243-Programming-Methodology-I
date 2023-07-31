@@ -18,12 +18,12 @@ struct telephone{
 
 class Employee{
 private:
-    const int EmployeeID;
+    int EmployeeID;
     std::string Fname;
     std::string Lname;
     std::string DOB;
     std::string address; // date of birth. format YYYY/MM/DD
-    const int yearHired;
+    int yearHired;
     double salary;
     telephone Tel; // an object to hold employee's telephone number
 public:

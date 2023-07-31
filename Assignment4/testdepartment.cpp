@@ -35,6 +35,7 @@ int main(){
             "Date of Birth in format YYYY/MM/DD <string>\n"
             "Employee\'s address <string>\n"
             "Employee\'s start year <integer>\n"
+            "Employe's salary <numeric>\n"
             "Telephone number area code <integer>\n"
             "Phone Number <string>\n";
     cout << "Enter Info for first employee:\n";
