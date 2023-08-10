@@ -42,6 +42,21 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Labs/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/FinalProject/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/STL ALGORITHMS/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

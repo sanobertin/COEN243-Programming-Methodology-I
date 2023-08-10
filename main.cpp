@@ -1,11 +1,25 @@
-#include <iostream>
+#include<iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
+/*
+template <class T>
+void printArray(T arr[]){
+    int s = sizeof(arr)/sizeof(T);
+    for(size_t i=0;i<s;i++)
+        cout << arr[i] << endl;
+}
+*/
 int main(){
-    vector<int> v = {5,8,6,3,2,0,1,4};
-    v.erase(0,1);
-    for(int i = 0; i<v.size(); i++){
-        cout << v[i] << " ";
-    }
+    vector<float> A {1.0, 2.0, 3.0, 4.0};
+    vector<float*> p;
+    array <double, 4> C;
+    //C = {1.0, 2.0, 3.0, 4.0};
+    float *CC = nullptr;
+    CC = A.data();
+    cout << A.data()<< endl << A.size() << endl;
+
+
+
+
+
 }

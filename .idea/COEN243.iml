@@ -5,4 +5,7 @@
       <configuration sdkName="Python 3.10" />
     </facet>
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="f21bed81-98a9-40bf-86db-d6f08d4efcb3" />
+  </component>
 </module>

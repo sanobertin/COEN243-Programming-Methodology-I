@@ -1,10 +1,12 @@
-//
-// Created by Bertin Mihigo Sano on 2023-07-28.
-//
+/*
+ * Assignemnt 4
+ * group of 2
+ * Bertin Mihigo Sano. ID 40157663
+ * Kruti Patel. ID
+ */
 
 #include "Department.h"
 #include <iostream>
-#include <algorithm>
 
 Department::Department(std::string ID, std::string NAME, std::string HISTORY) {
     identification = ID;
@@ -68,6 +70,6 @@ void Department::printAllEmployees(void){
 }
 
 void Department::printNumberOfEmployees() {
-        std::cout << employees.size() << std::endl;
+        std::cout <<"Total employees "<< employees.size() << std::endl;
 }
 

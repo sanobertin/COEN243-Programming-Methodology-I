@@ -25,3 +25,6 @@ endforeach()
 #include_directories(${PROJECT_SOURCE_DIR}/Assignment4)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/Assignment4) # This line ensure all files in Assignment4 folder are brought in!
+add_subdirectory(${PROJECT_SOURCE_DIR}/Labs)
+add_subdirectory(${PROJECT_SOURCE_DIR}/FinalProject)
+add_subdirectory("${PROJECT_SOURCE_DIR}/STL ALGORITHMS")

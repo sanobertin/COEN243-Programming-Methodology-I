@@ -134,6 +134,37 @@ build Ass3_1.cpp: CXX_EXECUTABLE_LINKER__Ass3_1.2ecpp_Debug CMakeFiles/Ass3_1.cp
   TARGET_PDB = Ass3_1.cpp.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Assignment4_1.cpp
+
+
+#############################################
+# Order-only phony target for Assignment4_1.cpp
+
+build cmake_object_order_depends_target_Assignment4_1.cpp: phony || CMakeFiles/Assignment4_1.cpp.dir
+
+build CMakeFiles/Assignment4_1.cpp.dir/Assignment4_1.cpp.o: CXX_COMPILER__Assignment4_1.2ecpp_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Assignment4_1.cpp || cmake_object_order_depends_target_Assignment4_1.cpp
+  DEP_FILE = CMakeFiles/Assignment4_1.cpp.dir/Assignment4_1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Assignment4_1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/Assignment4_1.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Assignment4_1.cpp
+
+
+#############################################
+# Link the executable Assignment4_1.cpp
+
+build Assignment4_1.cpp: CXX_EXECUTABLE_LINKER__Assignment4_1.2ecpp_Debug CMakeFiles/Assignment4_1.cpp.dir/Assignment4_1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/Assignment4_1.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Assignment4_1.cpp
+  TARGET_PDB = Assignment4_1.cpp.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Circles.cpp
 
 
@@ -194,6 +225,99 @@ build DynamicMemoryMgmt.cpp: CXX_EXECUTABLE_LINKER__DynamicMemoryMgmt.2ecpp_Debu
   PRE_LINK = :
   TARGET_FILE = DynamicMemoryMgmt.cpp
   TARGET_PDB = DynamicMemoryMgmt.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ExceptionHandler.cpp
+
+
+#############################################
+# Order-only phony target for ExceptionHandler.cpp
+
+build cmake_object_order_depends_target_ExceptionHandler.cpp: phony || CMakeFiles/ExceptionHandler.cpp.dir
+
+build CMakeFiles/ExceptionHandler.cpp.dir/ExceptionHandler.cpp.o: CXX_COMPILER__ExceptionHandler.2ecpp_unscanned_Debug /Users/bertin/CLionProjects/COEN243/ExceptionHandler.cpp || cmake_object_order_depends_target_ExceptionHandler.cpp
+  DEP_FILE = CMakeFiles/ExceptionHandler.cpp.dir/ExceptionHandler.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ExceptionHandler.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExceptionHandler.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ExceptionHandler.cpp
+
+
+#############################################
+# Link the executable ExceptionHandler.cpp
+
+build ExceptionHandler.cpp: CXX_EXECUTABLE_LINKER__ExceptionHandler.2ecpp_Debug CMakeFiles/ExceptionHandler.cpp.dir/ExceptionHandler.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/ExceptionHandler.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ExceptionHandler.cpp
+  TARGET_PDB = ExceptionHandler.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IO.cpp
+
+
+#############################################
+# Order-only phony target for IO.cpp
+
+build cmake_object_order_depends_target_IO.cpp: phony || CMakeFiles/IO.cpp.dir
+
+build CMakeFiles/IO.cpp.dir/IO.cpp.o: CXX_COMPILER__IO.2ecpp_unscanned_Debug /Users/bertin/CLionProjects/COEN243/IO.cpp || cmake_object_order_depends_target_IO.cpp
+  DEP_FILE = CMakeFiles/IO.cpp.dir/IO.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/IO.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/IO.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IO.cpp
+
+
+#############################################
+# Link the executable IO.cpp
+
+build IO.cpp: CXX_EXECUTABLE_LINKER__IO.2ecpp_Debug CMakeFiles/IO.cpp.dir/IO.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/IO.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = IO.cpp
+  TARGET_PDB = IO.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IO2.cpp
+
+
+#############################################
+# Order-only phony target for IO2.cpp
+
+build cmake_object_order_depends_target_IO2.cpp: phony || CMakeFiles/IO2.cpp.dir
+
+build CMakeFiles/IO2.cpp.dir/IO2.cpp.o: CXX_COMPILER__IO2.2ecpp_unscanned_Debug /Users/bertin/CLionProjects/COEN243/IO2.cpp || cmake_object_order_depends_target_IO2.cpp
+  DEP_FILE = CMakeFiles/IO2.cpp.dir/IO2.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/IO2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/IO2.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IO2.cpp
+
+
+#############################################
+# Link the executable IO2.cpp
+
+build IO2.cpp: CXX_EXECUTABLE_LINKER__IO2.2ecpp_Debug CMakeFiles/IO2.cpp.dir/IO2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/IO2.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = IO2.cpp
+  TARGET_PDB = IO2.cpp.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MyClass.cpp
@@ -596,117 +720,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # /Users/bertin/CLionProjects/COEN243/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for EXECUTABLE target Assignment4_2
-
-
-#############################################
-# Order-only phony target for Assignment4_2
-
-build cmake_object_order_depends_target_Assignment4_2: phony || Assignment4/CMakeFiles/Assignment4_2.dir
-
-build Assignment4/CMakeFiles/Assignment4_2.dir/Employee.cpp.o: CXX_COMPILER__Assignment4_2_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Assignment4/Employee.cpp || cmake_object_order_depends_target_Assignment4_2
-  DEP_FILE = Assignment4/CMakeFiles/Assignment4_2.dir/Employee.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_2.dir
-  OBJECT_FILE_DIR = Assignment4/CMakeFiles/Assignment4_2.dir
-
-build Assignment4/CMakeFiles/Assignment4_2.dir/testemployee.cpp.o: CXX_COMPILER__Assignment4_2_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Assignment4/testemployee.cpp || cmake_object_order_depends_target_Assignment4_2
-  DEP_FILE = Assignment4/CMakeFiles/Assignment4_2.dir/testemployee.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_2.dir
-  OBJECT_FILE_DIR = Assignment4/CMakeFiles/Assignment4_2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Assignment4_2
-
-
-#############################################
-# Link the executable Assignment4/Assignment4_2
-
-build Assignment4/Assignment4_2: CXX_EXECUTABLE_LINKER__Assignment4_2_Debug Assignment4/CMakeFiles/Assignment4_2.dir/Employee.cpp.o Assignment4/CMakeFiles/Assignment4_2.dir/testemployee.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Assignment4/Assignment4_2
-  TARGET_PDB = Assignment4_2.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Assignment4_3
-
-
-#############################################
-# Order-only phony target for Assignment4_3
-
-build cmake_object_order_depends_target_Assignment4_3: phony || Assignment4/CMakeFiles/Assignment4_3.dir
-
-build Assignment4/CMakeFiles/Assignment4_3.dir/Department.cpp.o: CXX_COMPILER__Assignment4_3_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Assignment4/Department.cpp || cmake_object_order_depends_target_Assignment4_3
-  DEP_FILE = Assignment4/CMakeFiles/Assignment4_3.dir/Department.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_3.dir
-  OBJECT_FILE_DIR = Assignment4/CMakeFiles/Assignment4_3.dir
-
-build Assignment4/CMakeFiles/Assignment4_3.dir/Employee.cpp.o: CXX_COMPILER__Assignment4_3_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Assignment4/Employee.cpp || cmake_object_order_depends_target_Assignment4_3
-  DEP_FILE = Assignment4/CMakeFiles/Assignment4_3.dir/Employee.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_3.dir
-  OBJECT_FILE_DIR = Assignment4/CMakeFiles/Assignment4_3.dir
-
-build Assignment4/CMakeFiles/Assignment4_3.dir/testdepartment.cpp.o: CXX_COMPILER__Assignment4_3_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Assignment4/testdepartment.cpp || cmake_object_order_depends_target_Assignment4_3
-  DEP_FILE = Assignment4/CMakeFiles/Assignment4_3.dir/testdepartment.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_3.dir
-  OBJECT_FILE_DIR = Assignment4/CMakeFiles/Assignment4_3.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Assignment4_3
-
-
-#############################################
-# Link the executable Assignment4/Assignment4_3
-
-build Assignment4/Assignment4_3: CXX_EXECUTABLE_LINKER__Assignment4_3_Debug Assignment4/CMakeFiles/Assignment4_3.dir/Department.cpp.o Assignment4/CMakeFiles/Assignment4_3.dir/Employee.cpp.o Assignment4/CMakeFiles/Assignment4_3.dir/testdepartment.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Assignment4/Assignment4_3
-  TARGET_PDB = Assignment4_3.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Assignment4_1
-
-
-#############################################
-# Order-only phony target for Assignment4_1
-
-build cmake_object_order_depends_target_Assignment4_1: phony || Assignment4/CMakeFiles/Assignment4_1.dir
-
-build Assignment4/CMakeFiles/Assignment4_1.dir/Assignment4_1.cpp.o: CXX_COMPILER__Assignment4_1_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Assignment4/Assignment4_1.cpp || cmake_object_order_depends_target_Assignment4_1
-  DEP_FILE = Assignment4/CMakeFiles/Assignment4_1.dir/Assignment4_1.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_1.dir
-  OBJECT_FILE_DIR = Assignment4/CMakeFiles/Assignment4_1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Assignment4_1
-
-
-#############################################
-# Link the executable Assignment4/Assignment4_1
-
-build Assignment4/Assignment4_1: CXX_EXECUTABLE_LINKER__Assignment4_1_Debug Assignment4/CMakeFiles/Assignment4_1.dir/Assignment4_1.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = Assignment4/CMakeFiles/Assignment4_1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Assignment4/Assignment4_1
-  TARGET_PDB = Assignment4_1.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -732,13 +745,238 @@ build Assignment4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build Assignment4/rebuild_cache: phony Assignment4/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/bertin/CLionProjects/COEN243/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Lab6
+
+
+#############################################
+# Order-only phony target for Lab6
+
+build cmake_object_order_depends_target_Lab6: phony || Labs/CMakeFiles/Lab6.dir
+
+build Labs/CMakeFiles/Lab6.dir/Temperature.cpp.o: CXX_COMPILER__Lab6_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Labs/Temperature.cpp || cmake_object_order_depends_target_Lab6
+  DEP_FILE = Labs/CMakeFiles/Lab6.dir/Temperature.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = Labs/CMakeFiles/Lab6.dir
+  OBJECT_FILE_DIR = Labs/CMakeFiles/Lab6.dir
+
+build Labs/CMakeFiles/Lab6.dir/Temperature_driver.cpp.o: CXX_COMPILER__Lab6_unscanned_Debug /Users/bertin/CLionProjects/COEN243/Labs/Temperature_driver.cpp || cmake_object_order_depends_target_Lab6
+  DEP_FILE = Labs/CMakeFiles/Lab6.dir/Temperature_driver.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = Labs/CMakeFiles/Lab6.dir
+  OBJECT_FILE_DIR = Labs/CMakeFiles/Lab6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Lab6
+
+
+#############################################
+# Link the executable Labs/Lab6
+
+build Labs/Lab6: CXX_EXECUTABLE_LINKER__Lab6_Debug Labs/CMakeFiles/Lab6.dir/Temperature.cpp.o Labs/CMakeFiles/Lab6.dir/Temperature_driver.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = Labs/CMakeFiles/Lab6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Labs/Lab6
+  TARGET_PDB = Lab6.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Labs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs && /opt/homebrew/Cellar/cmake/3.27.1/bin/ccmake -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build Labs/edit_cache: phony Labs/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Labs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs && /opt/homebrew/Cellar/cmake/3.27.1/bin/cmake --regenerate-during-build -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Labs/rebuild_cache: phony Labs/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/bertin/CLionProjects/COEN243/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FinalProject
+
+
+#############################################
+# Order-only phony target for FinalProject
+
+build cmake_object_order_depends_target_FinalProject: phony || FinalProject/CMakeFiles/FinalProject.dir
+
+build FinalProject/CMakeFiles/FinalProject.dir/Employee.cpp.o: CXX_COMPILER__FinalProject_unscanned_Debug /Users/bertin/CLionProjects/COEN243/FinalProject/Employee.cpp || cmake_object_order_depends_target_FinalProject
+  DEP_FILE = FinalProject/CMakeFiles/FinalProject.dir/Employee.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = FinalProject/CMakeFiles/FinalProject.dir
+  OBJECT_FILE_DIR = FinalProject/CMakeFiles/FinalProject.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FinalProject
+
+
+#############################################
+# Link the executable FinalProject/FinalProject
+
+build FinalProject/FinalProject: CXX_EXECUTABLE_LINKER__FinalProject_Debug FinalProject/CMakeFiles/FinalProject.dir/Employee.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = FinalProject/CMakeFiles/FinalProject.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FinalProject/FinalProject
+  TARGET_PDB = FinalProject.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || FinalProject/CMakeFiles/test.dir
+
+build FinalProject/CMakeFiles/test.dir/test.cpp.o: CXX_COMPILER__test_unscanned_Debug /Users/bertin/CLionProjects/COEN243/FinalProject/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = FinalProject/CMakeFiles/test.dir/test.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = FinalProject/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = FinalProject/CMakeFiles/test.dir
+
+build FinalProject/CMakeFiles/test.dir/Employee.cpp.o: CXX_COMPILER__test_unscanned_Debug /Users/bertin/CLionProjects/COEN243/FinalProject/Employee.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = FinalProject/CMakeFiles/test.dir/Employee.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = FinalProject/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = FinalProject/CMakeFiles/test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable FinalProject/test
+
+build FinalProject/test: CXX_EXECUTABLE_LINKER__test_Debug FinalProject/CMakeFiles/test.dir/test.cpp.o FinalProject/CMakeFiles/test.dir/Employee.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = FinalProject/CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FinalProject/test
+  TARGET_PDB = test.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build FinalProject/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject && /opt/homebrew/Cellar/cmake/3.27.1/bin/ccmake -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build FinalProject/edit_cache: phony FinalProject/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build FinalProject/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject && /opt/homebrew/Cellar/cmake/3.27.1/bin/cmake --regenerate-during-build -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build FinalProject/rebuild_cache: phony FinalProject/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/bertin/CLionProjects/COEN243/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sort.cpp
+
+
+#############################################
+# Order-only phony target for sort.cpp
+
+build cmake_object_order_depends_target_sort.cpp: phony || STL$ ALGORITHMS/CMakeFiles/sort.cpp.dir
+
+build STL$ ALGORITHMS/CMakeFiles/sort.cpp.dir/sort.cpp.o: CXX_COMPILER__sort.2ecpp_unscanned_Debug /Users/bertin/CLionProjects/COEN243/STL$ ALGORITHMS/sort.cpp || cmake_object_order_depends_target_sort.cpp
+  DEP_FILE = "STL ALGORITHMS/CMakeFiles/sort.cpp.dir/sort.cpp.o.d"
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = "STL ALGORITHMS/CMakeFiles/sort.cpp.dir"
+  OBJECT_FILE_DIR = "STL ALGORITHMS/CMakeFiles/sort.cpp.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sort.cpp
+
+
+#############################################
+# Link the executable STL ALGORITHMS/sort.cpp
+
+build STL$ ALGORITHMS/sort.cpp: CXX_EXECUTABLE_LINKER__sort.2ecpp_Debug STL$ ALGORITHMS/CMakeFiles/sort.cpp.dir/sort.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = "STL ALGORITHMS/CMakeFiles/sort.cpp.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "STL ALGORITHMS/sort.cpp"
+  TARGET_PDB = sort.cpp.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build STL$ ALGORITHMS/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS" && /opt/homebrew/Cellar/cmake/3.27.1/bin/ccmake -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build STL$ ALGORITHMS/edit_cache: phony STL$ ALGORITHMS/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build STL$ ALGORITHMS/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS" && /opt/homebrew/Cellar/cmake/3.27.1/bin/cmake --regenerate-during-build -S/Users/bertin/CLionProjects/COEN243 -B/Users/bertin/CLionProjects/COEN243/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build STL$ ALGORITHMS/rebuild_cache: phony STL$ ALGORITHMS/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build Assignment4_1: phony Assignment4/Assignment4_1
+build FinalProject: phony FinalProject/FinalProject
 
-build Assignment4_2: phony Assignment4/Assignment4_2
+build Lab6: phony Labs/Lab6
 
-build Assignment4_3: phony Assignment4/Assignment4_3
+build sort.cpp: phony STL$ ALGORITHMS/sort.cpp
+
+build test: phony FinalProject/test
 
 # =============================================================================
 # Folder targets.
@@ -748,14 +986,35 @@ build Assignment4_3: phony Assignment4/Assignment4_3
 #############################################
 # Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug
 
-build all: phony 3.1_backup.cpp Arrays.cpp Ass3_1.cpp Circles.cpp DynamicMemoryMgmt.cpp MyClass.cpp Palindrome.cpp Pointers.cpp PointersDemo.cpp RecursiveFunctions.cpp STL_Sort.cpp StringsManipulation.cpp StructDemo.cpp Vectors.cpp cpp_templates.cpp main.cpp mainmain.cpp Assignment4/all
+build all: phony 3.1_backup.cpp Arrays.cpp Ass3_1.cpp Assignment4_1.cpp Circles.cpp DynamicMemoryMgmt.cpp ExceptionHandler.cpp IO.cpp IO2.cpp MyClass.cpp Palindrome.cpp Pointers.cpp PointersDemo.cpp RecursiveFunctions.cpp STL_Sort.cpp StringsManipulation.cpp StructDemo.cpp Vectors.cpp cpp_templates.cpp main.cpp mainmain.cpp Assignment4/all Labs/all FinalProject/all STL$ ALGORITHMS/all
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4
 
-build Assignment4/all: phony Assignment4/Assignment4_2 Assignment4/Assignment4_3 Assignment4/Assignment4_1
+build Assignment4/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject
+
+build FinalProject/all: phony FinalProject/FinalProject FinalProject/test
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs
+
+build Labs/all: phony Labs/Lab6
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS
+
+build STL$ ALGORITHMS/all: phony STL$ ALGORITHMS/sort.cpp
 
 # =============================================================================
 # Built-in targets
@@ -764,14 +1023,14 @@ build Assignment4/all: phony Assignment4/Assignment4_2 Assignment4/Assignment4_3
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/bertin/CLionProjects/COEN243/Assignment4/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/bertin/CLionProjects/COEN243/Assignment4/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/FinalProject/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/Labs/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/STL$ ALGORITHMS/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/bertin/CLionProjects/COEN243/Assignment4/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake: phony
+build /Users/bertin/CLionProjects/COEN243/Assignment4/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/FinalProject/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/Labs/CMakeLists.txt /Users/bertin/CLionProjects/COEN243/STL$ ALGORITHMS/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake: phony
 
 
 #############################################

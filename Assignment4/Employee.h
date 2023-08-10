@@ -1,11 +1,12 @@
-//
-// Created by Bertin Mihigo Sano on 2023-07-26.
-//
+/*
+* Assignemnt 4
+* group of 2
+* Bertin Mihigo Sano. ID 40157663
+* Kruti Patel. ID
+*/
+
 
 #pragma once
-#ifndef COEN243_EMPLOYEE_H
-#define COEN243_EMPLOYEE_H
-
 #include <string>
 // employees of a department at a university
 
@@ -28,7 +29,7 @@ private:
     telephone Tel; // an object to hold employee's telephone number
 public:
     Employee(int EmployeeNumber, std::string FirstName, std::string LastName, std::string DateofBirth,
-             std::string ADDRESS, int startYear, double compensation, telephone t);
+             std::string ADDRESS, int startYear, double compensation, telephone t); // class constructor
 
     int getEmployeeID(void); //Return the employee id number.
     std::string getFname(void); // Return the first name of the employee
@@ -51,5 +52,3 @@ public:
 
 
 };
-
-#endif

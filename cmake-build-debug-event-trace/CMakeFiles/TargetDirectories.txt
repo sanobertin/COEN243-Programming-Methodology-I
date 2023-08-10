@@ -1,8 +1,12 @@
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/3.1_backup.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/Arrays.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/Ass3_1.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/Assignment4_1.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/Circles.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/DynamicMemoryMgmt.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/ExceptionHandler.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/IO.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/IO2.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/MyClass.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/Palindrome.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/Pointers.cpp.dir
@@ -17,8 +21,15 @@
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/mainmain.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/edit_cache.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/CMakeFiles/rebuild_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/Assignment4_2.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/Assignment4_3.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/Assignment4_1.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/edit_cache.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Assignment4/CMakeFiles/rebuild_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Labs/CMakeFiles/Lab6.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Labs/CMakeFiles/edit_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/Labs/CMakeFiles/rebuild_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/FinalProject/CMakeFiles/FinalProject.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/FinalProject/CMakeFiles/test.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/FinalProject/CMakeFiles/edit_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/FinalProject/CMakeFiles/rebuild_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/STL ALGORITHMS/CMakeFiles/sort.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/STL ALGORITHMS/CMakeFiles/edit_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug-event-trace/STL ALGORITHMS/CMakeFiles/rebuild_cache.dir

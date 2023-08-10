@@ -1,8 +1,12 @@
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/3.1_backup.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Arrays.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Ass3_1.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Assignment4_1.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Circles.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/DynamicMemoryMgmt.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/ExceptionHandler.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/IO.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/IO2.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/MyClass.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Palindrome.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Pointers.cpp.dir
@@ -17,8 +21,15 @@
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/mainmain.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4/CMakeFiles/Assignment4_2.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4/CMakeFiles/Assignment4_3.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4/CMakeFiles/Assignment4_1.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4/CMakeFiles/edit_cache.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4/CMakeFiles/rebuild_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs/CMakeFiles/Lab6.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs/CMakeFiles/edit_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs/CMakeFiles/rebuild_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/FinalProject.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/test.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/edit_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/rebuild_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS/CMakeFiles/sort.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS/CMakeFiles/edit_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS/CMakeFiles/rebuild_cache.dir

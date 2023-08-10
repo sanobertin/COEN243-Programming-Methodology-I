@@ -1,0 +1,5 @@
+Bertin Mihigo Sano|40157663|5142925835
+Manzi Christian|10457663|4382925835
+add_executable(COEN243 main.cpp)
+add_executable(test2 StringsManipulation.cpp)
+

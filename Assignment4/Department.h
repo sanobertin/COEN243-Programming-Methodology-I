@@ -1,6 +1,10 @@
-//
-// Created by Bertin Mihigo Sano on 2023-07-28.
-//
+/*
+* Assignemnt 4
+* group of 2
+* Bertin Mihigo Sano. ID 40157663
+* Kruti Patel. ID
+*/
+
 
 //#ifndef COEN243_DEPARTMENT_H
 //#define COEN243_DEPARTMENT_H
