@@ -1,9 +1,15 @@
+/*
+*  Created on: August -2023
+*  Author: kruti Patel(40259909) and Bertin Mihigo Sano(40157663)
+*  Project: COEN243 end of class project
+*  specs:
+*/
 #pragma once
 #include <string>
 #include <vector> // to be used for dynamic array
 
 
-struct  { // this structure will help me to read from a structured staff file
+struct  st_f{ // this structure will help me to read from a structured staff file
     std::string firstname; //0
     std::string lastname; //1
     int id; //2
@@ -12,7 +18,7 @@ struct  { // this structure will help me to read from a structured staff file
     double salary; //5
 } static staffstructure;
 
-struct { // this struct will help to read from student.txt file
+struct st_d { // this struct will help to read from student.txt file
     std::string firstname; //0
     std::string lastname; //1
     int studentID; //2
@@ -21,7 +27,7 @@ struct { // this struct will help to read from student.txt file
     int startyear; //5
     float completedCredits; //6
     char program; //7
-} studentstructure;
+} static studentstructure;
 
 
 
@@ -37,8 +43,8 @@ private:
     float _completedCredits; //6
     char _program; //7
 public:
-    Student(); // empty constructor
-    Student(std::string, std::string, int, std::string, float, int, float, char);
+    //Student(); // empty constructor
+    Student(std::string, std::string, int, std::string, float, int, float, char, bool);
     //All getters
     std::string _getFirstName();
     std::string _getLastName();
@@ -77,8 +83,7 @@ private:
 
 public:
     //constructor
-    Staff();
-    Staff(std::string FName, std::string LName, int empID, int hiringDate, char bonusCode, double salary);
+    Staff(std::string, std::string, int, int, char, double,bool);
     ~Staff(); // destructor will delete pointer to object and save object data to disk
     // All Get functions
     std::string __getFirstName();
@@ -94,31 +99,35 @@ public:
     void __setHireDate(int);
     void __setBonusCode(char);
     void __setCurrentSalary(double);
-
+    //custom methods
     void __Print_Staff_Info();// This function prints out all the information of one staff (all the attributes).
     double __Calculate_Salary();   // see function specs in the PDF
 };
 
 
 static std::vector<Student> students;// an array of all students
-static std::vector<Staff> staffs;    //an array of all staff members
+static  std::vector<Staff> staffs;    //an array of all staff members
 
 // a subclass used to retrieve lists of students and staff saved to the system
-class Student_Staff: private Staff, private Student{
+class Student_Staff{
 private:
-    //std::vector<Student> *p_Students= {nullptr};
-    //std::vector<Staff> *p_Staffs {nullptr};
-    Student *p_Students = students.data(); // points directly to the first member of students
-    Staff *p_Staffs = staffs.data(); // points directly to the first member of staffs
+    Student *p_Students {nullptr}; // points directly to the first member of students
+    Staff *p_Staffs = {nullptr}; // points directly to the first member of staffs
+    std::string path; // path where contents will be saved! should be the same as client input
 
 public:
     //Reads student.txt files and creates a dynamic array of students
     //Reads staff.txt files and creates a dynamic array of staff
-    Student_Staff();
-    explicit Student_Staff(std::string filename); // full path of filename required!
+    // full path of filename required!
+    Student_Staff(const std::string filename);
     void Highest_GPA();   // This function accepts an array of students and size. Then prints out the information of the one who has the highest GPA
     int N_of_UnderGrad(); // This function accept an array of students, and size and returns the total number of undergraduate students
-    void Same_Hire_Year();// This function accepts an array of staff, and size and a hiring year and prints out the name of all staff who have been hired in that year.
+    void Same_Hire_Year(const int);// This function accepts an array of staff, and size and a hiring year and prints out the name of all staff who have been hired in that year.
+    std::vector<Student>  getStudents();
+    std::vector<Staff> getStaffs();
+
+    // This method will be used to save all employee info on the disk!
+    ~Student_Staff();
 };
 
 

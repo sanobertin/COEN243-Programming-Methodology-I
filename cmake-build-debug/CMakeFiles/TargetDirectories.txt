@@ -1,3 +1,4 @@
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/2DArrays.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/3.1_backup.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Arrays.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/Ass3_1.cpp.dir
@@ -19,17 +20,9 @@
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/cpp_templates.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/main.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/mainmain.cpp.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/smartpointers.cpp.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/bertin/CLionProjects/COEN243/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4/CMakeFiles/edit_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Assignment4/CMakeFiles/rebuild_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs/CMakeFiles/Lab6.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs/CMakeFiles/edit_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/Labs/CMakeFiles/rebuild_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/FinalProject.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/test.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/edit_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/FinalProject/CMakeFiles/rebuild_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS/CMakeFiles/sort.cpp.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS/CMakeFiles/edit_cache.dir
-/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL ALGORITHMS/CMakeFiles/rebuild_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL/CMakeFiles/stacks.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL/CMakeFiles/edit_cache.dir
+/Users/bertin/CLionProjects/COEN243/cmake-build-debug/STL/CMakeFiles/rebuild_cache.dir

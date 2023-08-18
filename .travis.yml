@@ -1,6 +1,10 @@
 language: cpp
+os:
+  -osx
 
+osx_image: xcode14
 compiler:
+  - clang
   - gcc
 
 # the install step will take care of deploying a newer cmake version
@@ -32,7 +36,7 @@ before_script:
   - cd build
   # run cmake; here we assume that the project's
   # top-level CMakeLists.txt is located at '..'
-  - cmake ..
+  - cmake ../COEN243
 
 script:
   # once CMake has done its job we just build using make as usual

@@ -1,0 +1,18 @@
+
+}	cpp:S3230"aDo not assign data members in a constructor. Initialize member "value" in an initialization list.(ˆáË¶8ïéøã1
+{	cpp:S3230	"`Do not assign data members in a constructor. Initialize member "type" in an initialization list.(¦ú8ğéøã1
+	cpp:S3230
+"`Do not assign data members in a constructor. Initialize member "city" in an initialization list.(Ûü†éıÿÿÿÿ8ğéøã1
+}	cpp:S3230"aDo not assign data members in a constructor. Initialize member "value" in an initialization list.(çÿ…ì8óéøã1
+	cpp:S3230"`Do not assign data members in a constructor. Initialize member "type" in an initialization list.(ŸÊ³¶ûÿÿÿÿ8óéøã1
+	cpp:S3230"`Do not assign data members in a constructor. Initialize member "city" in an initialization list.(¸Ë¿ÿÿÿÿÿ8óéøã1
+W	cpp:S1238";Pass expensive to copy object "city" by reference to const.(‚ÃÕ¿8óéøã1
+J	cpp:S5817")This function should be declared "const".(—¨‘²ùÿÿÿÿ8Åÿ–ä1
+E	cpp:S5817")This function should be declared "const".(Ø·®¹8Æÿ–ä1
+J	cpp:S5817")This function should be declared "const".(²Ì›Ğúÿÿÿÿ8Æÿ–ä1
+_	cpp:S1238"">Pass expensive to copy object "newCity" by reference to const.(åÔœÂúÿÿÿÿ8öéøã1
+J	cpp:S5817&")This function should be declared "const".(‘—¦¨øÿÿÿÿ8Çÿ–ä1
+^cpp:S9356">non-void function does not return a value in all control paths(æÀö€øÿÿÿÿ8Çÿ–ä1
+V	cpp:S5025Z":Rewrite the code so that you no longer need this "delete".(³Áìß8Äîä1
+;	cpp:S3520Z"Attempt to free released memory(³Áìß8¼Ÿîä1
+>cpp:S125S"Remove the commented out code.(©¢‹¦üÿÿÿÿ8Ãøøã1

@@ -1,4 +1,15 @@
 /opt/homebrew/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/bertin/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/bertin/CLionProjects/COEN243 -B /Users/bertin/CLionProjects/COEN243/cmake-build-debug
+
+
+Welcome to COEN243 Project
+CMAKE Version: 3.27
+C++17 Standard
+Current system: Darwin-23.0.0
+System name: Darwin
+Processor: arm64
+
+
+-- Adding target for 2DArrays.cpp
 -- Adding target for 3.1_backup.cpp
 -- Adding target for Arrays.cpp
 -- Adding target for Ass3_1.cpp
@@ -20,10 +31,7 @@
 -- Adding target for cpp_templates.cpp
 -- Adding target for main.cpp
 -- Adding target for mainmain.cpp
--- Adding target for Lab6
--- Adding target for FinalProject
--- Adding target for test-project
--- Adding target for sort.cpp
+-- Adding target for smartpointers.cpp
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/bertin/CLionProjects/COEN243/cmake-build-debug
