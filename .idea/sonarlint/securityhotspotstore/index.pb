@@ -53,5 +53,13 @@ G
 FinalProject/Driver.cpp,5/4/54a58b17e71aa9e893f5d1eee3308abd8cfa6aee
 D
 ExceptionHandler.cpp,9/2/92ea3a5d08345b3789e7276818e371d366d91f41
-G
-DataStructures/maps.cpp,8/f/8fd6ab729824b2fbac20e08ba0e5979fdd282516
+<
+2DArrays.cpp,0/6/06b1384b1b47e5911e1c864fd6a1b4a4721a1fa7
+B
+STL/CMakeLists.txt,0/b/0bc3d5757f31460323b5c3b056a6b7ca555ffb53
+>
+STL/stacks.cpp,9/f/9f49924bdc908d183e01c6c6f3c5ae9643ddde1f
+A
+smartpointers.cpp,a/0/a06d78bb2cf18ce9953678c76e316ecb2f46d19a
+8
+main.cpp,6/8/682a50d19e416195436708e48c7761923b8d6651

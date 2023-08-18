@@ -1,0 +1,4 @@
+
+^	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(Τεέ‚ϊÿÿÿÿ8ίπώ® 1
+U	cpp:S2813"9Make this reference a constant value by removing the "&".(”―¬8ίπώ® 1
+P	cpp:S5020"/Replace "rand" with the facilities in <random>.(Νωώÿÿÿÿ8ίπώ® 1
