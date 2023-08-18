@@ -31,8 +31,6 @@ install:
   - cd ${TRAVIS_BUILD_DIR}
 
 before_script:
-  # update required scripts
-  - sudo apt-get update
   # create a build folder for the out-of-source build
   - mkdir build
   # switch to build directory
