@@ -12,16 +12,12 @@ Ass3_1.cpp,c/9/c9f2268134adac19f6bb5b60b0d92d98fdf1f2b3
 Pointers.cpp,e/f/efa8be0463b6b546ad7e091433429f341670f1a0
 @
 PointersDemo.cpp,d/e/deeb53e0eb013c835979e4eaadcce635ef6dfd52
-F
-RecursiveFunctions.cpp,4/f/4fac7b91e2cbb0d1a7a68909721df48838c18760
 <
 STL_Sort.cpp,6/b/6b19b65b3d8563eec513800c6feebd9ebdbd9b9a
 G
 StringsManipulation.cpp,a/8/a8181ff9c44940cd4dc2c2df039bc42dc8196e10
 >
 StructDemo.cpp,f/9/f9aa5643501da67cf2fc135fcca3c815bc0b0e3a
-;
-Vectors.cpp,a/9/a9f3786dcf3c05b3cdca3418d55a5563dd053480
 C
 Labs/CMakeLists.txt,2/f/2f029f71c5eb7e8e133b0fb7eab545e818acfed7
 K
@@ -37,20 +33,6 @@ B
 :
 
 output.txt,a/d/adbe6c7d3c0d8b19ecd492bec9532c13a6e1c9ad
-E
-FinalProject/test.cpp,1/9/19bd2ad54ce8e9ed25c4c18b99fb3e8891e3d7ce
-H
-FinalProject/student.txt,7/e/7e1d81de8a6ec4964a8c43cf94b23ba152eaa879
-G
-FinalProject/Employee.h,8/b/8b15f6d12745bb9ea70add280f256ea43cdac39b
-I
-FinalProject/Employee.cpp,e/4/e4fded13c8f07d53427c21883a1603036ea5ce04
-K
-FinalProject/CMakeLists.txt,5/3/53d4c9b4d79ae3014abc97416eca51462a7b1136
-F
-FinalProject/staff.txt,7/d/7da109c6a0fbb962ccbf1ad172e6dbafc2ed9a8e
-G
-FinalProject/Driver.cpp,5/4/54a58b17e71aa9e893f5d1eee3308abd8cfa6aee
 D
 ExceptionHandler.cpp,9/2/92ea3a5d08345b3789e7276818e371d366d91f41
 <
@@ -59,7 +41,12 @@ B
 STL/CMakeLists.txt,0/b/0bc3d5757f31460323b5c3b056a6b7ca555ffb53
 >
 STL/stacks.cpp,9/f/9f49924bdc908d183e01c6c6f3c5ae9643ddde1f
-A
-smartpointers.cpp,a/0/a06d78bb2cf18ce9953678c76e316ecb2f46d19a
-8
-main.cpp,6/8/682a50d19e416195436708e48c7761923b8d6651
+=
+.clang-format,0/1/01a718df87a96135eb956401504e555421dc5a3d
+;
+.travis.yml,d/e/dea01dd89a3b602828e630677fde5d77c06441c8
+F
+RecursiveFunctions.cpp,4/f/4fac7b91e2cbb0d1a7a68909721df48838c18760
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

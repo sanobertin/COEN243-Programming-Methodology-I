@@ -12,12 +12,34 @@ using namespace std;
 
 class Test {
 private:
-    int data;
+    int *data;
+
 public:
-    Test() : data{0} { cout << "\tTest constructor (" << data << ")" << endl; }
-    Test(int data) : data {data} { cout << "\tTest constructor (" << data << ")" << endl; }
-    int getData() const {return data; }
-    ~Test() {cout << "\tTest destructor (" << data << ")" << endl; }
+    /*
+    Test() {
+        *data = 0;
+        cout << "\tTest constructor (" << *data << ")" << endl;
+    }
+     */
+    Test(int data) {
+        *(this->data) = data;
+        cout << "\tTest constructor (" << data << ")" << endl;
+    }
+    //Test(Test&&) = default;
+    Test &operator=(const Test& source) noexcept{// copy constructor
+        //Test *move = new Test();
+        *data = source.getData();
+}
+    //Test(const Test&&) = delete; // move constructor
+
+
+    int getData() const {return *data; }
+
+    ~Test() {
+        cout << "\tTest destructor (" << data << ")" << endl;
+        delete data;
+    }
+
 }; // end class def and decl
 
 // Function prototypes
