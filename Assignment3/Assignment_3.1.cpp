@@ -27,6 +27,7 @@ int F_grades(const int grades[], int N);
 
 int main() {
     int N;
+    std::scanf()
     int grades[max_students];
 
     cout << "Enter the number of students (N): ";
