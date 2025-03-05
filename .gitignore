@@ -1,6 +1,7 @@
-cmake-build-debug
+/cmake-build-debug
 .vscode
 .clang-format
-CMakeFiles
-StringsManipulation.dSYM
-.idea
+/.idea/
+/BeyondC++/.idea/
+/BeyondC++/cmake-build-debug/
+
