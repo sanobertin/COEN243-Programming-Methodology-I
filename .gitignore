@@ -1,3 +1,6 @@
 cmake-build-debug
 .vscode
 .clang-format
+CMakeFiles
+StringsManipulation.dSYM
+.idea

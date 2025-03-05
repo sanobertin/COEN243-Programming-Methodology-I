@@ -18,8 +18,6 @@ G
 StringsManipulation.cpp,a/8/a8181ff9c44940cd4dc2c2df039bc42dc8196e10
 >
 StructDemo.cpp,f/9/f9aa5643501da67cf2fc135fcca3c815bc0b0e3a
-C
-Labs/CMakeLists.txt,2/f/2f029f71c5eb7e8e133b0fb7eab545e818acfed7
 K
 Labs/Temperature_driver.cpp,3/e/3ebd428a0bc5da490bb826c0e27099fdf552c8b8
 D
@@ -37,16 +35,36 @@ D
 ExceptionHandler.cpp,9/2/92ea3a5d08345b3789e7276818e371d366d91f41
 <
 2DArrays.cpp,0/6/06b1384b1b47e5911e1c864fd6a1b4a4721a1fa7
-B
-STL/CMakeLists.txt,0/b/0bc3d5757f31460323b5c3b056a6b7ca555ffb53
->
-STL/stacks.cpp,9/f/9f49924bdc908d183e01c6c6f3c5ae9643ddde1f
 =
 .clang-format,0/1/01a718df87a96135eb956401504e555421dc5a3d
-;
-.travis.yml,d/e/dea01dd89a3b602828e630677fde5d77c06441c8
 F
 RecursiveFunctions.cpp,4/f/4fac7b91e2cbb0d1a7a68909721df48838c18760
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+G
+generic_programming.cpp,e/f/ef96b2d93ecb7494fa68836b9ba8074a7a467279
+A
+smartpointers.cpp,a/0/a06d78bb2cf18ce9953678c76e316ecb2f46d19a
+>
+Palindrome.cpp,d/2/d20711ba0d5a2040bcf941d2f41ea0dc95824ef5
+E
+STL/priorityqueue.cpp,7/0/70d7b677eb434d68fdbb63fc87167ff9b418a2b3
+>
+STL/stacks.cpp,9/f/9f49924bdc908d183e01c6c6f3c5ae9643ddde1f
+B
+STL/CMakeLists.txt,0/b/0bc3d5757f31460323b5c3b056a6b7ca555ffb53
+8
+time.cpp,7/5/75e8d4a1683f7be1b4b1ed128518096afe1063b3
+8
+main.cpp,6/8/682a50d19e416195436708e48c7761923b8d6651
+=
+fs_header.cpp,1/7/17da0d8f0a231616d1a05712f966ad35e5c93080
+@
+enumerations.cpp,3/1/315c1f2eb8ff4c4cca761aacbc81c16de8c2bf1b
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+>
+CMakeLists.txt,9/a/9a2aa4db38d3115ed60da621e012c0efc0172aae
+C
+Labs/CMakeLists.txt,2/f/2f029f71c5eb7e8e133b0fb7eab545e818acfed7
